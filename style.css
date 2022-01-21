@@ -1,0 +1,444 @@
+.left{ float: left;}
+.right{ float: right;}
+.clear{clear: both;}
+
+.bg1{
+    background-color: #141414;
+}
+.bg2{
+    background-color: #eeecec;
+}
+.bg3{
+    background-color: #efefef;
+}
+.bg4{
+    background-color: #25982B;
+}
+.bg5{
+    background-color: #000000e5;
+}
+#logo{
+    text-align: justify;
+    padding-bottom: 5px;
+}
+.icon-header{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+/* SEARCH */
+.search-form{
+    border: 1px solid #25982B;
+    border-radius: 6px;
+}
+.search-form input, .search-form button{
+    height: 35px;
+}
+.submit{
+    background-color: #25982B;
+    color: white;
+    position: absolute;
+    top: 1px;
+    right: 16px;
+    height: 38px;
+    padding: 0 15px;
+    border: 1px;
+    border-radius: 3px;
+}
+/* MENU */
+.navbar .navbar-toggler{
+    padding: 0px 5px;
+}
+.navbar .navbar-toggler-icon{
+    width: 25px;
+    height: 23px;
+}
+.nav-link{
+    font-weight: 500;
+    color: #3d3c3c;
+    border-left: 0.5px solid #b1b1b1;
+    border-right: 0.5px solid #b1b1b1;
+}
+#menu ul li{
+    width: 130px;
+    display: block;
+}
+#menu ul li a{
+    text-align: center;
+    color: #3d3c3c;
+}
+#menu ul li :hover{
+    background-color: white;
+    color: #25982B;
+    border-radius: 4px;
+}
+#menu ul li:hover ul{
+    display: block;
+}
+#menu ul li:hover .sub-menu{
+    background-color: #f2f3f2;
+}
+li{
+    list-style: none;
+}
+.sub-menu{
+    display: none;
+    z-index: 2;
+    position: absolute;
+    text-decoration: none;
+    padding: 12px
+}
+.sub-menu li{
+    padding: 7px;
+}
+.sub-menu li a{
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* MAIN **************/
+#slider img{
+    width: 100%;
+    padding: 5px 0px;
+    transition-duration: 0.5s;
+        /* Safari */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+#slider .col-md-3{
+    padding-left: 0px;
+}
+#deal a img:hover {
+    overflow: hidden;
+    transform: scale(1.2);
+}
+.special{
+    border-left: 4px solid #25982B;
+    border-right: 4px solid #25982B;
+}
+.special img{
+    max-width: 50px;
+}
+.special p{
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
+#products{
+    padding-top: 10px;
+}
+#products h4{
+    color: white;
+    margin-bottom: 0px;
+}
+#title{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #218826,#33bb3aef);
+}
+#title a{
+    color: #000000;
+    font-size: 17px;
+    padding-top: 12px;
+}
+
+#sp .col-6{
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+        /* Safari */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+#sp .col-6:hover{
+    background-color: white;
+    border: 2px solid #25982B;
+    transform: scale(0.95);
+}
+#sp a{
+    text-decoration: none;
+}
+#sp img{
+    width: 100%;
+    border-bottom: 1px solid #a3a3a3;
+}
+#sp h6{
+    color: #25982B;
+    text-align: center;
+}
+#sp p{
+    color: red;
+    text-align: center;
+}
+#brand{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#brand img{
+    width: 100%;
+}
+#policy{
+    margin-top: 20px;
+    justify-content: center;
+}
+#policy a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#sub{
+    margin-top: 10px;
+}
+#footer {
+    color: white;
+}
+#footer a{
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    #logo .PC{
+        display: none;
+    }
+    #logo{
+        text-align: center;
+    }
+    #logo img{
+        width: 65%;
+    }
+    .search-form input, .search-form button{
+        height: 32px;
+    }
+    .icon-header a{
+        font-size: 16px;
+    }
+    .nav-link{
+        border-left: none;
+        border-right: none;
+    }
+    #menu ul li a{
+        text-align: left;
+    }
+    #slider .col-md-3{
+        padding-left: 15px;
+    }
+    #special{
+        display: none;
+    }
+    #title img{
+        width: 40px;
+    }
+    #title h4{
+        font-size: 18px;
+    }
+    #title a{
+        padding-top: 10px;
+        font-weight: 100;
+        font-size: 17px;
+    }
+
+    #policy a{
+        font-size: 12px;
+    }
+    #policy img{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 768px) {
+    #logo .Tab-SP{
+        display: none;
+    }
+}
+/*** taikhoan *********************************************/
+/* Bordered form */
+#taikhoan{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#taikhoan form {
+    border: 3px solid #f1f1f1;
+}
+  
+/* Full-width inputs */
+#taikhoan input[type=text], #taikhoan input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+  /* Set a style for all buttons */
+#taikhoan button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+/* Add a hover effect for buttons */
+#taikhoan button:hover {
+    opacity: 0.8;
+}
+  
+/* Add padding to containers */
+#taikhoan .container {
+    padding: 16px;
+}
+#taikhoan span a{
+    color: #25982B;
+}
+#taikhoan #deal img{
+    width: 60%;
+    transition-duration: 0.5s;
+        /* Safari */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+  
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    #taikhoan span.psw {
+      display: block;
+      float: none;
+    }
+    #taikhoan .cancelbtn {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #taikhoan #deal img{
+        width: 100%;
+    }
+}
+/********** giohang ******************/
+table, th, td {
+    border: 1px solid #d6d6d6;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+#giohang th {
+    text-align: center;
+}
+.empty{
+    text-align: center;
+}
+.empty img{
+    width: 100%;
+}
+.empty button{
+    background-color: #4CAF50;
+    border: 1px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+.empty button:hover{
+    opacity: 0.8;
+}
+.empty button a{
+    color: white;
+    text-decoration: none;
+}
+#giohang #donhang .col-12 p{
+    margin-bottom: 5px;
+}
+/********* lienhe **********************/
+#lienhe form input{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    border: 1px solid #bfc0c0;
+    color: #1b1b1b;
+}
+#lienhe form input[type="submit"]{
+    background-color: #25982B;
+    border-radius: 4px solid #25982B;
+    border: 1px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+}
+/******** CHILD ***********************/
+#child #danhmuc .row{
+    border-top: 4px solid #25982B;
+}
+#child #danhmuc a{
+    text-decoration: none;
+    color: black;
+}
+#child #danhmuc a:hover{
+    color: #25982B;
+}
+#sanpham #sp a img{
+    transition-duration: 0.3s;
+        /* Safari */
+        -webkit-transition-duration: 0.3s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.3s; 
+        /* Opera */
+        -o-transition-duration: 0.3s;
+        /* IE 9 */
+        -ms-transition-duration: 0.3s;
+}
+#sanpham #sp a img:hover{
+    transform: scale(1.2);
+}
+#deal img{
+    width: 100%;
+    transition-duration: 0.5s;
+        /* Safari */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+@media screen and (max-width: 768px) {
+    #danhmuc{
+        display: none;
+    }
+}
+/************ detail ***************/
+#detail{
+    margin-top: 15px;
+}
+#detail img{
+    width: 100%;
+}
+#detail button{
+    background-color: #25982B;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+#detail button:hover{
+    opacity: 0.9;
+}
+.ttct{
+    margin-top: 10px;
+}
